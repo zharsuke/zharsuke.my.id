@@ -9,19 +9,20 @@ interface ProfileBodyProps {
     linkedin: string;
     twitter: string;
     medium: string;
+    hover: string;
 }
 
-export default function ProfileBody({ name, description, email, github, linkedin, twitter, medium }: ProfileBodyProps) {
+export default function ProfileBody({ name, description, email, github, linkedin, twitter, medium, hover }: ProfileBodyProps) {
     return (
         <div className="flex-col justify-between">
             <h1 className="text-base md:text-base font-bold mb-2">{name}</h1>
             <p className="text-sm sm:text-sm md:text-base mb-3">{description}</p>
             <div className="flex gap-2 mt-3 text-base">
-                <Link href={email} className="border-solid border-2 border-primary px-1 py-1 rounded-md"><Icon icon="line-md:email" /></Link>
-                <Link href={github} className="border-solid border-2 border-primary px-1 py-1 rounded-md"><Icon icon="line-md:github-loop" /></Link>
-                <Link href={linkedin} className="border-solid border-2 border-primary px-1 py-1 rounded-md"><Icon icon="line-md:linkedin" /></Link>
-                <Link href={twitter} className="border-solid border-2 border-primary px-1 py-1 rounded-md"><Icon icon="line-md:twitter" /></Link>
-                <Link href={medium} className="border-solid border-2 border-primary px-1 py-1 rounded-md"><Icon icon="ri:medium-line" /></Link>
+                <Link href={email} className={`border-solid border-2 border-primary px-1 py-1 rounded-md ${hover}`}><Icon icon="line-md:email" /></Link>
+                <Link href={github} className={`border-solid border-2 border-primary px-1 py-1 rounded-md ${hover}`}><Icon icon="line-md:github-loop" /></Link>
+                <Link href={linkedin} className={`border-solid border-2 border-primary px-1 py-1 rounded-md ${hover}`}><Icon icon="line-md:linkedin" /></Link>
+                <Link href={twitter} className={`border-solid border-2 border-primary px-1 py-1 rounded-md ${hover}`}><Icon icon="line-md:twitter" /></Link>
+                <Link href={medium} className={`border-solid border-2 border-primary px-1 py-1 rounded-md ${hover}`}><Icon icon="ri:medium-line" /></Link>
             </div>
         </div>
     )

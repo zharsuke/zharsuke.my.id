@@ -14,7 +14,7 @@ export default function Home() {
 
       {/* body */}
       <div className="ml-2 mr-2">
-        <Profile name={name} description={description} email={email} github={github} linkedin={linkedin} twitter={twitter} medium={medium} image={image}/>
+        <Profile name={name} description={description} email={email} github={github} linkedin={linkedin} twitter={twitter} medium={medium} image={image} hover={hover}/>
 
         <h1>Experiences</h1>
         <h1>Projects</h1>
