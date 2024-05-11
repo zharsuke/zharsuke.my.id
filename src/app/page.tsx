@@ -31,7 +31,7 @@ export default function Home() {
         <h1 className="mt-10 font-bold text-xl mb-2">About Me</h1>
         <About about={about} />
 
-        <h1 className="mt-10 font-bold text-xl mb-4">Experiences</h1>
+        <h1 className="mt-10 font-bold text-xl mb-2">Experiences</h1>
         <ExperienceHome/>
         <Link className={`font-bold ${hover}`} href={'/experiences'}>See More...</Link>
 
