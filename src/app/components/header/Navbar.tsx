@@ -7,7 +7,7 @@ interface NavbarProps {
 
 export default function Navbar({ hover }: NavbarProps) {
     return (
-        <div className="navbar">
+        <div className="navbar bg-base-100">
             <NavbarTitle hover={hover}/>
             <NavbarMenu hover={hover}/>
         </div>
