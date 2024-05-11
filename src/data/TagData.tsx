@@ -14,8 +14,7 @@ const tagData = [
     {
         id: 4,
         name: "Competition",
-    }
-
+    },
 ]
 
 export default tagData;

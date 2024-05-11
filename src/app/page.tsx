@@ -1,13 +1,16 @@
 // component
-import Navbar from "./components/header/Navbar";
-import Profile from "./components/main/profile/Profile";
-import Footer from "./components/footer/Footer";
-import About from "./components/main/about/About";
-import Experience from "./components/main/experience/Experience";
+import Navbar from "../components/header/Navbar";
+import Profile from "../components/main/profile/Profile";
+import Footer from "../components/footer/Footer";
+import About from "../components/main/about/About";
+import ExperienceHome from "../components/main/experience/ExperienceHome";
+import ProjectHome from "../components/main/project/ProjectHome";
+import PostHome from "../components/main/post/PostHome";
+import Link from "next/link";
 
 // data
-import profileData from "./data/ProfileData";
-import aboutData from "./data/AboutData";
+import profileData from "../data/ProfileData";
+import aboutData from "../data/AboutData";
 
 export default function Home() {
 
@@ -29,11 +32,17 @@ export default function Home() {
         <About about={about} />
 
         <h1 className="mt-10 font-bold text-xl mb-4">Experiences</h1>
-        <Experience/>
+        <ExperienceHome/>
+        <Link className={`font-bold ${hover}`} href={'/experiences'}>See More...</Link>
 
         <h1 className="mt-10 font-bold text-xl mb-2">Projects</h1>
+        <ProjectHome />
+        <Link className={`font-bold ${hover}`} href={'/projects'}>See More...</Link>
 
         <h1 className="mt-10 font-bold text-xl mb-2">Posts</h1>
+        <PostHome />
+        <Link className={`font-bold ${hover}`} href={'/posts'}>See More...</Link>
+
 
         {/* footer */}
         <Footer />

@@ -1,8 +1,11 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
+import { Rokkitt } from 'next/font/google'
 
-const inter = Inter({ subsets: ["latin"] });
+const font = Rokkitt({
+  weight: '400',
+  subsets: ['latin'],
+})
 
 export const metadata: Metadata = {
   title: "Home | Zharsuke",
@@ -16,8 +19,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" data-theme="valentine">
-      <body className={inter.className}>
-          {children}
+      <body className={font.className}>
+        {children}
       </body>
     </html>
   );

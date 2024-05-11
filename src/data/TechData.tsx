@@ -74,6 +74,26 @@ const techData = [
     {
         id: 19,
         name: "CSS"
+    },
+    {
+        id: 20,
+        name: "Hapi js"
+    },
+    {
+        id: 21,
+        name: "Jasper Report"
+    },
+    {
+        id: 22,
+        name: "SQLite"
+    },
+    {
+        id: 23,
+        name: "yajra datatables"
+    },
+    {
+        id: 24,
+        name: "LiveWire datatable"
     }
 ]
 
