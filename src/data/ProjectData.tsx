@@ -28,7 +28,7 @@ const projectData = [
             tech[20].name,
             tech[21].name,
         ],
-        source: "https://github.com/zharsuke/mykids"
+        source: "https://github.com/zharsuke/myticket"
     },
     {
         id: 3,
@@ -42,7 +42,7 @@ const projectData = [
             tech[6].name,
             tech[22].name,
         ],
-        source: "https://github.com/zharsuke/mykids"
+        source: "https://github.com/zharsuke/grafika-cafe-web"
     },
     {
         id: 4,
@@ -55,7 +55,7 @@ const projectData = [
             tech[20].name,
             tech[21].name,
         ],
-        source: "https://github.com/zharsuke/mykids"
+        source: "https://github.com/zharsuke/grafika-cafe-oop"
     },
     {
         id: 5,
@@ -66,7 +66,7 @@ const projectData = [
         tech: [
             tech[19].name
         ],
-        source: "https://github.com/zharsuke/mykids"
+        source: "https://github.com/zharsuke/bookshelf-api"
     },
     {
         id: 6,
@@ -79,7 +79,7 @@ const projectData = [
             tech[14].name,
             tech[11].name,
         ],
-        source: "https://github.com/zharsuke/mykids"
+        source: "https://github.com/zharsuke/e-canteen-jti"
     },
     {
         id: 7,
@@ -92,7 +92,7 @@ const projectData = [
             tech[14].name,
             tech[12].name,
         ],
-        source: "https://github.com/zharsuke/mykids"
+        source: "https://github.com/zharsuke/sports-inventory-warehouse"
     },
     {
         id: 8,
@@ -105,7 +105,7 @@ const projectData = [
             techData[18].name,
             techData[2].name,
         ],
-        source: "https://github.com/zharsuke/mykids"
+        source: "https://github.com/zharsuke/bookshelf-apps"
     },
     {
         id: 9,
@@ -116,7 +116,7 @@ const projectData = [
         tech: [
             tech[9].name,
         ],
-        source: "https://github.com/zharsuke/mykids"
+        source: "https://github.com/zharsuke/personal-notes-app"
     },
     {
         id: 10,
@@ -130,7 +130,7 @@ const projectData = [
             tech[23].name,
             tech[13].name,
         ],
-        source: "https://github.com/zharsuke/mykids"
+        source: "https://github.com/zharsuke/rwis-3"
     },
     {
         id: 11,
@@ -144,7 +144,7 @@ const projectData = [
             tech[22].name,
             tech[11].name,
         ],
-        source: "https://github.com/zharsuke/mykids"
+        source: "https://github.com/zharsuke/PWL_POS"
     },
 ]
 
