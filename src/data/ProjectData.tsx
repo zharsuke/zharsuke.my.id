@@ -95,7 +95,7 @@ const projectData = [
     },
     {
         id: 8,
-        image: "/place-holder.jpg",
+        image: "/book-shelf-app.png",
         title: "Bookshelf App",
         subtitle: "An web application for managing bookshelf. This is my Dicoding final submission 'Learn to Create Front-End Web for Beginners' course",
         description: "Bookshelf App is a web application that is used to manage bookshelves. This application is made to facilitate the process of managing bookshelves. This application is made using the simple HTML, CSS, and Javascript with DOM. This application has features such as adding, editing, deleting, and displaying bookshelves.",
@@ -110,7 +110,7 @@ const projectData = [
         id: 9,
         image: "/place-holder.jpg",
         title: "Personal Notes App",
-        subtitle: "An web application for managing personal notes. This is my Dicoding final submission 'Learn to Build Web Apps with React' course",
+        subtitle: "An web application for managing personal notes. This is my Dicoding final submission 'Learn to Build Web Apps with React' course. Work in progress.",
         description: "Personal Notes App is a web application that is used to manage personal notes. This application is made to facilitate the process of managing personal notes. This application is made using the React js and Local Storage to store data. This application has features such as adding, editing, deleting, and displaying personal notes.",
         tech: [
             tech[9].name,
@@ -119,9 +119,9 @@ const projectData = [
     },
     {
         id: 10,
-        image: "/place-holder.jpg",
+        image: "/rwis11.png",
         title: "RWIS 11",
-        subtitle: "An web application for data digitalization resident, help resident to make issue tracker just in case there is issue, digital signature, help communication and broadcasting among residents to conveying information. Also information center to display facility and umkm information to help local umkm. This is Project based learning final project 4th semester",
+        subtitle: "A web app for residents to digitalize data, report issues, use digital signatures, and communicate. It also serves as an information center for local facilities and businesses. This is Project based learning final project 4th semester",
         description: "RWIS 11 is a web application that is used to manage data digitalization resident, help resident to make issue tracker just in case there is issue, digital signature, help communication and broadcasting among residents to conveying information. Also information center to display facility and umkm information to help local umkm. This application is made to facilitate the process of managing data digitalization resident. This application is made using the Laravel and PostgreSQL database. This application has features such as adding, editing, deleting, and printing data digitalization resident. Also issue tracker, digital signature, communication and broadcasting among residents, and information center to display facility and umkm information.",
         tech: [
             tech[7].name,
@@ -133,7 +133,7 @@ const projectData = [
     },
     {
         id: 11,
-        image: "/place-holder.jpg",
+        image: "/pos.png",
         title: "Point of Sales",
         subtitle: "An web application for managing sales. This is my Web Programming Advance course 4th semester",
         description: "Point of Sales is a web application that is used to manage sales. This application is made to facilitate the process of managing sales. This application is made using the Laravel and PostgreSQL database. This application has features such as adding, editing, deleting products. Also add sales transactions.",
