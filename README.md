@@ -1,3 +1,8 @@
+## My Personal Website
+Preview
+![Screenshot_2024-05-15_02-38-33](https://github.com/zharsuke/zharsuke.vercel.app/assets/68967912/0adc3e21-c137-4082-bc3b-d9f6f6de0c93)
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
