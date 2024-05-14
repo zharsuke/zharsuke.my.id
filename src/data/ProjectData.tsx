@@ -19,7 +19,7 @@ const projectData = [
     },
     {
         id: 2,
-        image: "/place-holder.jpg",
+        image: "/place-holder-remove.png",
         title: "My Ticket",
         subtitle: "An desktop application for managing train ticket sales. This is my final project when vocational high school",
         description: "My Ticket is a desktop application that is used to manage train ticket sales. This application is made to facilitate the process of selling train tickets. This application is made using the Java programming language and SQLite database. This application has features such as adding, editing, deleting tickets, add sales transactions and printing train tickets.",
@@ -32,7 +32,7 @@ const projectData = [
     },
     {
         id: 3,
-        image: "/place-holder.jpg",
+        image: "/place-holder-remove.png",
         title: "Grafika Cafe Web",
         subtitle: "An web application for managing cafe sales. This is my final project when vocational high school",
         description: "Graphika Cafe is a web application that is used to manage cafe sales. This application is made to facilitate the process of selling food and drinks in cafes. This application is made using the Django framework and SQlite database. This application has features such as adding, editing, deleting products, add sales transactions and printing sales reports.",
@@ -45,7 +45,7 @@ const projectData = [
     },
     {
         id: 4,
-        image: "/place-holder.jpg",
+        image: "/place-holder-remove.png",
         title: "Grafika Cafe Desktop",
         subtitle: "An desktop application for managing cafe sales. This is my final project when vocational high school",
         description: "Graphika Cafe is a desktop application that is used to manage cafe sales. This application is made to facilitate the process of selling food and drinks in cafes. This application is made using the Java programming language and SQLite database. This application has features such as adding, editing, deleting products, add sales transactions and printing sales reports.",
@@ -58,7 +58,7 @@ const projectData = [
     },
     {
         id: 5,
-        image: "/place-holder.jpg",
+        image: "/place-holder-remove.png",
         title: "Bookshelf API",
         subtitle: "An API for managing bookshelf. This dicoding final submission 'Learn to Build Back-End Applications for Beginners' course ",
         description: "Bookshelf API is an API that is used to manage bookshelves. This API is made to facilitate the process of managing bookshelves. This API is made using the Hapi js framework and array to store data. This API has features such as adding, editing, deleting, and displaying bookshelves.",
@@ -69,7 +69,7 @@ const projectData = [
     },
     {
         id: 6,
-        image: "/place-holder.jpg",
+        image: "/place-holder-remove.png",
         title: "E-Canteen JTI",
         subtitle: "An web application for managing canteen sales. This is my Project based learning final project 3rd semester",
         description: "E-Canteen JTI is a web application that is used to manage canteen sales. This application is made to facilitate the process of selling food and drinks in canteens. This application is made using the PHP Native and MySQL database. This application has features such as adding, editing, deleting products, add sales transaction and  printing sales reports.",
@@ -82,7 +82,7 @@ const projectData = [
     },
     {
         id: 7,
-        image: "/place-holder.jpg",
+        image: "/place-holder-remove.png",
         title: "Sports Inventory Warehouse",
         subtitle: "An web application for managing sports inventory warehouse. This is my Database Advance Final Project 3rd semester",
         description: "Sports Inventory Warehouse is a web application that is used to manage sports inventory warehouses. This application is made to facilitate the process of managing sports inventory warehouses. This application is made using the PHP Native and MySQL database. This application has features such as adding, editing, deleting, and printing Item. Also loan and return item feature",
@@ -108,7 +108,7 @@ const projectData = [
     },
     {
         id: 9,
-        image: "/place-holder.jpg",
+        image: "/place-holder-remove.png",
         title: "Personal Notes App",
         subtitle: "An web application for managing personal notes. This is my Dicoding final submission 'Learn to Build Web Apps with React' course. Work in progress.",
         description: "Personal Notes App is a web application that is used to manage personal notes. This application is made to facilitate the process of managing personal notes. This application is made using the React js and Local Storage to store data. This application has features such as adding, editing, deleting, and displaying personal notes.",
