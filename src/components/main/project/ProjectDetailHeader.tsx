@@ -14,7 +14,7 @@ export default function ProjectDetailHeader({ project }: ProjectDetailHeaderProp
             {/* header */}
             <div className="flex flex-col justify-between md:flex-row my-5">
                 <div className="md:mr-5 my-2 rounded border-dashed border border-primary p-2">
-                    <Image src={project.image} alt="..." height={1000} width={1000}></Image>
+                    <Image className="rounded" src={project.image} alt="..." height={1000} width={1000}></Image>
                 </div>
                 <div className="md:ml-5 my-2 md:w-1/4">
                     <div className="rounded border-dashed border border-primary p-2">
