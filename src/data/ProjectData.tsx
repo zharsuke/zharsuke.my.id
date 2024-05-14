@@ -9,13 +9,12 @@ const projectData = [
         image: null,
         title: "My Kids",
         subtitle: "An web application for managing children's birth certificates. This is my final project when vocational high school",
-        description: null,
+        description: "My Kids is a web application that is used to manage children's birth certificates. This application is made to facilitate the process of making children's birth certificates. This application is made using the CodeIgniter framework and MySQL database. This application has features such as adding, editing, deleting, and printing children's birth certificates. This application is made to facilitate the process of making children's birth certificates. This application is made using the CodeIgniter framework and MySQL database. This application has features such as adding, editing, deleting, and printing children's birth certificates.",
         tech: [
             tech[17].name,
             tech[14].name,
             tech[6].name,
-            tech[22].name,
-        ]
+        ],
     },
     {
         id: 2,
