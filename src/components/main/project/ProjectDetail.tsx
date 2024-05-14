@@ -4,11 +4,12 @@ import ProjectDetailBody from "./ProjectDetailBody"
 interface ProjectDetailProps {
     project: {
         id: number,
-        image: string | null,
+        image: string,
         title: string,
         subtitle: string,
         description: string,
         tech: string[]
+        source: string
     }
 }
 
