@@ -1,5 +1,5 @@
 const profileData = {
-    "image": "",
+    "image": "https://avatars.githubusercontent.com/u/68967912?v=4",
     "name": "AL AZHAR RIZQI RIFA'I FIRDAUS",
     "description": "Call me Azhar, web universe enthusiast. Student at State Polytechnic of Malang.",
     "email": "mailto:alazharisqi@gmail.com",
