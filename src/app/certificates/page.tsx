@@ -1,7 +1,7 @@
 export default function Certificates() {
     return (
         <div>
-            <h1>Certificates</h1>
+            <h1>Soon!!!</h1>
         </div>
     )
 }

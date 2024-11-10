@@ -42,7 +42,7 @@ export default function Home() {
 
         <h1 className="mt-10 font-bold text-xl mb-2">Certificates</h1>
         <CertificatesHome />
-        <Link className={`font-bold ${hover}`} href={'/projects'}>See More...</Link>
+        <Link className={`font-bold ${hover}`} href={'/certificates'}>See More...</Link>
 
         <h1 className="mt-10 font-bold text-xl mb-2">Posts</h1>
         <PostHome />

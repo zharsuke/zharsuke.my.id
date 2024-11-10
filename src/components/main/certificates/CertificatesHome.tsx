@@ -7,12 +7,14 @@ export default function CertificatesHome() {
         <div className="md:carousel my-4 carousel w-full">
             {certificates.map((certificate) => (
                 <div key={certificate.id} className="carousel-item mx-2 p-2 border-dashed border border-primary rounded-md">
-                    <div>
+                    <div className="flex flex-col justify-between">
                         <Image className="rounded" src={certificate.image} alt="..." height={400} width={400}></Image>
-                        <h1 className="font-bold text-sm md:text-lg my-2">{certificate.title}</h1>
-                        <div className="flex flex-row gap-2">
-                        <p className="text-xs md:text-xs p-1 bg-primary rounded">{certificate.tag}</p>
-                    </div>
+                        <div className="flex-col">
+                            <h1 className="font-bold text-sm md:text-lg my-2">{certificate.title}</h1>
+                            <div className="flex flex-row gap-2">
+                                <p className="text-xs md:text-xs p-1 bg-primary rounded">{certificate.tag}</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             ))}

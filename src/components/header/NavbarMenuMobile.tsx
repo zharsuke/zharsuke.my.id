@@ -14,6 +14,7 @@ export default function NavbarMenu({ hover }: NavbarMenuProps) {
                 <ul tabIndex={0} className="menu menu-sm dropdown-content mt-10 z-[1] right-0 top-0 p-3 shadow bg-base-100 rounded-box w-52">
                     <li><Link className={hover} href={'/experiences'}>Experiences</Link></li>
                     <li><Link className={hover} href={'/projects'}>Projects</Link></li>
+                    <li><Link className={hover} href={'/certificates'}>Certificates</Link></li>
                     <li><Link className={hover} href={'/posts'}>Posts</Link></li>
                 </ul>
             </div>
