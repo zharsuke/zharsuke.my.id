@@ -15,7 +15,7 @@ import aboutData from "../data/AboutData";
 export default function Home() {
 
   const hover = "hover:text-primary transition ease-in-out delay-150 hover:-translate-y-0.5 duration-300";
-  const { image, name, description, email, github, linkedin, twitter, medium } = profileData;
+  const { image, name, description, email, github, linkedin, twitter, medium, resume } = profileData;
   const { about } = aboutData;
 
   return (
@@ -26,7 +26,7 @@ export default function Home() {
 
       {/* main */}
       <div className="ml-2 mr-2">
-        <Profile name={name} description={description} email={email} github={github} linkedin={linkedin} twitter={twitter} medium={medium} image={image} hover={hover} />
+        <Profile name={name} description={description} email={email} github={github} linkedin={linkedin} twitter={twitter} medium={medium} image={image} hover={hover} resume={resume} />
 
         <h1 className="mt-10 font-bold text-xl mb-2">About Me</h1>
         <About about={about} />

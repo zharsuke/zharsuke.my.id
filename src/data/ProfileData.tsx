@@ -6,7 +6,8 @@ const profileData = {
     "github": "https://github.com/zharsuke",
     "linkedin": "https://www.linkedin.com/in/al-azhar-rizqi-rifa-i-firdaus-384236221/",
     "twitter": "https://twitter.com/zharsuke",
-    "medium": "https://medium.com/@zharsuke"
+    "medium": "https://medium.com/@zharsuke",
+    "resume": "/assets/resume-azhar.pdf"
 }
 
 export default profileData;

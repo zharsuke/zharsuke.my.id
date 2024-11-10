@@ -10,9 +10,10 @@ interface ProfileBodyProps {
     twitter: string;
     medium: string;
     hover: string;
+    resume: string;
 }
 
-export default function ProfileBody({ name, description, email, github, linkedin, twitter, medium, hover }: ProfileBodyProps) {
+export default function ProfileBody({ name, description, email, github, linkedin, twitter, medium, hover, resume }: ProfileBodyProps) {
     return (
         <div className="flex-col justify-between">
             <h1 className="text-base md:text-base font-bold mb-2">{name}</h1>
@@ -23,6 +24,7 @@ export default function ProfileBody({ name, description, email, github, linkedin
                 <Link href={linkedin} className={`border-solid border border-primary px-1 py-1 rounded-md ${hover}`}><Icon icon="line-md:linkedin" /></Link>
                 <Link href={twitter} className={`border-solid border border-primary px-1 py-1 rounded-md ${hover}`}><Icon icon="line-md:twitter" /></Link>
                 <Link href={medium} className={`border-solid border border-primary px-1 py-1 rounded-md ${hover}`}><Icon icon="ri:medium-line" /></Link>
+                <Link href={resume} className={`border-solid border border-primary px-1 py-1 rounded-md ${hover}`}><Icon icon="line-md:file-document" /></Link>
             </div>
         </div>
     )
