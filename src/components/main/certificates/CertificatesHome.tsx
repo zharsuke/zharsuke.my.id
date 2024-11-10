@@ -4,7 +4,7 @@ import Image from "next/image"
 export default function CertificatesHome() {
     const certificates = certificatesData;
     return (
-        <div className="carousel my-4">
+        <div className="md:carousel my-4 carousel w-full">
             {certificates.map((certificate) => (
                 <div key={certificate.id} className="carousel-item mx-2 p-2 border-dashed border border-primary rounded-md">
                     <div>
