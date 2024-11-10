@@ -13,7 +13,7 @@ const certificatesData = [
     },
     {
         id: 3,
-        title: "Internal Competition 2023 Cyber Security - 2nd Place",
+        title: "Intercomp 2023 Cyber Security - 2nd Place",
         image: "/certificates/ctf/intercomp2023-2nd.png",
         tag: "Competition",
     },
