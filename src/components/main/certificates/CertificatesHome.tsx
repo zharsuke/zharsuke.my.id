@@ -1,4 +1,4 @@
-import certificatesData from "@/data/certificatesData"
+import certificatesData from "@/data/CertificatesData"
 import Image from "next/image"
 
 export default function CertificatesHome() {
