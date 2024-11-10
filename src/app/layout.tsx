@@ -18,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" data-theme="valentine">
+    <html lang="en" data-theme="synthwave">
       <body className={font.className}>
         {children}
       </body>
