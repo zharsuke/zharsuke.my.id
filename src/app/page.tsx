@@ -11,6 +11,7 @@ import Link from "next/link";
 // data
 import profileData from "../data/ProfileData";
 import aboutData from "../data/AboutData";
+import CertificatesHome from "@/components/main/certificates/CertificatesHome";
 
 export default function Home() {
 
@@ -37,6 +38,10 @@ export default function Home() {
 
         <h1 className="mt-10 font-bold text-xl mb-2">Projects</h1>
         <ProjectHome />
+        <Link className={`font-bold ${hover}`} href={'/projects'}>See More...</Link>
+
+        <h1 className="mt-10 font-bold text-xl mb-2">Certificates</h1>
+        <CertificatesHome />
         <Link className={`font-bold ${hover}`} href={'/projects'}>See More...</Link>
 
         <h1 className="mt-10 font-bold text-xl mb-2">Posts</h1>
