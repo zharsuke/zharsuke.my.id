@@ -119,6 +119,36 @@ const certificatesData = [
         image: "/certificates/dicoding/Memulai Pemrograman Dengan Java.jpg",
         tag: "Course",
     },
+    {
+        id: 21,
+        title: "Jatim Developer Day'24",
+        image: "/certificates/workshop/jatim-dev.jpg",
+        tag: "Workshop",
+    },
+    {
+        id: 22,
+        title: "CipherOps SQL Injection",
+        image: "/certificates/workshop/cipherops-sqli.jpg",
+        tag: "Workshop",
+    },
+    {
+        id: 23,
+        title: "Dicoding Cyber Smart Learning",
+        image: "/certificates/workshop/cyber-smart-learning-protecting-and-thriving-in-the-digital-era-certificate.jpg",
+        tag: "Workshop",
+    },
+    {
+        id: 24,
+        title: "Hack4id Day 1",
+        image: "/certificates/workshop/hack4id-day1.jpg",
+        tag: "Workshop",
+    },
+    {
+        id: 22,
+        title: "Hack4id Day 2",
+        image: "/certificates/workshop/hack4id-day2.jpg",
+        tag: "Workshop",
+    },
 ]
 
 export default certificatesData;
