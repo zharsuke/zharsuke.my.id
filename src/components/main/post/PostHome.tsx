@@ -15,7 +15,7 @@ export default function PostHome() {
                     <div className="mt-5">
                         <h2 className="font-bold text-sm md:text-lg my-2">{post.title}</h2>
                         <div className="flex justify-end">
-                            <Link href={post.link} className="text-xs md:text-lg bg-primary p-1 rounded font-bold">View Here...</Link>
+                            <Link href={post.link} className="btn btn-primary btn-sm text-white">View Here...</Link>
                         </div>
                     </div>
                     </div>
