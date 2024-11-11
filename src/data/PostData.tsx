@@ -6,6 +6,12 @@ const postData = [
         link: "https://medium.com/@zharsuke/hack-the-box-drive-walkthrough-bd22f1320755"
     },
     {
+        id: 6,
+        title: "Watch “Source Code Disclosure - Git“ by zharsuke on TikTok",
+        image: "/image-post/Source Code Disclosure-Cover.jpg",
+        link: "https://vt.tiktok.com/ZSjDbCWLu/",
+    },
+    {
         id: 1,
         title: "Read “Hack the Box: Zipping Walkthrough“ by Al Azhar Rizqi on Medium",
         image: "https://miro.medium.com/v2/resize:fit:720/format:webp/1*0BVNjeU-Uybq8nhu9orSSw.jpeg",
