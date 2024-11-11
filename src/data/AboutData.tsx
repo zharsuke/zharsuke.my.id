@@ -1,5 +1,5 @@
 const aboutData = {
-    "about": "A student at State Polytechnic of Malang with approximately 4 years of experience in programming. My expertise lies in web development, particularly in frameworks such as Laravel, Django, and ReactJS, as well as languages like Java. Currently, I am expanding my skill set by delving into NextJS. Beyond web development, I am deeply engaged in cybersecurity, a passion I've nurtured since my college years. I hone my skills through platforms like Hack The Box, contribute write-ups on Medium, and participate in competitions alongside my peers.",
+    "about": "A student at the State Polytechnic of Malang with deeply engaged in cybersecurity, actively practicing on Hack The Box, mentoring others, and participating in competitions. I also share insights through Medium write-ups. With around four years of programming experience, I specialize in web development using frameworks like Laravel, Django, and ReactJS, and am currently expanding my skills in NextJS.",
 }
 
 export default aboutData;
