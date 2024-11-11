@@ -1,4 +1,4 @@
-import Post from "../../components/main/post/PostHome";
+import Post from "../../components/main/post/Post";
 import Navbar from "../../components/header/Navbar"
 import Footer from "../../components/footer/Footer"
 

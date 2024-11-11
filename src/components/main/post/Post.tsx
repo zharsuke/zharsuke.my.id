@@ -2,7 +2,7 @@ import postdata from "@/data/PostData"
 import Link from "next/link";
 
 export default function PostHome() {
-    const posts = postdata.slice(0, 3);
+    const posts = postdata;
     return (
         <div className="grid gap-4 md:grid-cols-3 mb-4">
             {posts.map((post) => (
