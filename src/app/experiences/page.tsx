@@ -8,7 +8,7 @@ export default function ExperiencePage() {
         <div className="max-w-screen-lg mx-auto">
             <Navbar hover={hover} />
             <div className="ml-2 mr-2">
-                <h1 className="font-bold text-xl mb-2">Experiences</h1>
+                <h1 className="font-bold text-xl mb-2">All Experiences</h1>
                 <Experience />
                 {/* footer */}
                 <Footer />

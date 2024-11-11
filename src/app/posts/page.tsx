@@ -8,6 +8,8 @@ export default function ProjectPage() {
         <div className="max-w-screen-lg mx-auto">
             <Navbar hover={hover} />
             <div className="ml-2 mr-2">
+                <h1 className="font-bold text-xl mb-2">All Posts</h1>
+
                 <Post />
                 {/* footer */}
                 <Footer />
