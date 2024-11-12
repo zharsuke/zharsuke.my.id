@@ -122,7 +122,7 @@ const experienceData = [
     },
     {
         id: 7,
-        title: "Cybersecurity Extracurricular Program, SMKN 4 Malang ",
+        title: "Cybersecurity Extracurricular, SMKN 4 Malang",
         position: "Mentor",
         start: "September 2024",
         end: "Present",
