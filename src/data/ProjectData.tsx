@@ -69,7 +69,7 @@ const projectData = [
     },
     {
         id: 6,
-        image: "/image-project/place-holder-remove.png",
+        image: "/image-project/e-canteen-jti.png",
         title: "E-Canteen JTI",
         subtitle: "An web application for managing canteen sales. This is my Project based learning final project 3rd semester",
         description: "E-Canteen JTI is a web application that is used to manage canteen sales. This application is made to facilitate the process of selling food and drinks in canteens. This application is made using the PHP Native and MySQL database. This application has features such as adding, editing, deleting products, add sales transaction and  printing sales reports.",
@@ -82,7 +82,7 @@ const projectData = [
     },
     {
         id: 7,
-        image: "/image-project/place-holder-remove.png",
+        image: "/image-project/sport-inventory.png",
         title: "Sports Inventory Warehouse",
         subtitle: "An web application for managing sports inventory warehouse. This is my Database Advance Final Project 3rd semester",
         description: "Sports Inventory Warehouse is a web application that is used to manage sports inventory warehouses. This application is made to facilitate the process of managing sports inventory warehouses. This application is made using the PHP Native and MySQL database. This application has features such as adding, editing, deleting, and printing Item. Also loan and return item feature",
