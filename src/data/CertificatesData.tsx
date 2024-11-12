@@ -6,6 +6,12 @@ const certificatesData = [
         tag: "Competition",
     },
     {
+        "id": 25,
+        "title": "Polinema - Vulnerability Report",
+        "image": "/certificates/pentest/polinema.jpg",
+        "tag": "Pentest"
+    },
+    {
         id: 2,
         title: "KMIPN V Cyber Security - Finalist",
         image: "/certificates/ctf/kmipnv-finalis.jpg",
