@@ -19,7 +19,7 @@ const postData = [
     },
     {
         id: 11,
-        title: "Read “[PEMENANG INTERNAL COMPETITION JURUSAN TEKNOLOGI INFORMASI 2023]...“ by wri_polinema on Instagram",
+        title: "Read “[PEMENANG INTERNAL COMPETITION JURUSAN TEKNOLOGI INFORMASI 2023]...“ by hmtipolinema on Instagram",
         image: "/image-post/intercomp23.jpg",
         link: "https://www.instagram.com/p/CsBDjmCrMLb/?img_index=2&igsh=Mm54N3V5Njh5dDQ5"
     },

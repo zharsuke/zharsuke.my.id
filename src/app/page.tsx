@@ -33,7 +33,7 @@ export default function Home() {
         <About about={about} />
 
         <h1 className="mt-10 font-bold text-xl mb-2">Experiences</h1>
-        <ExperienceHome/>
+        <ExperienceHome />
         <Link className={`font-bold ${hover}`} href={'/experiences'}>See More...</Link>
 
         <h1 className="mt-10 font-bold text-xl mb-2">Projects</h1>
@@ -42,6 +42,9 @@ export default function Home() {
 
         <h1 className="mt-10 font-bold text-xl mb-2">Certificates</h1>
         <CertificatesHome />
+        <div className="flex justify-center">
+          <p className="badge">Swipe left to navigate</p>
+        </div>
         <Link className={`font-bold ${hover}`} href={'/certificates'}>See More...</Link>
 
         <h1 className="mt-10 font-bold text-xl mb-2">Posts</h1>
