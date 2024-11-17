@@ -48,6 +48,12 @@ const certificatesData = [
         tag: "Competition",
     },
     {
+        id: 26,
+        title: "Compfest 16 Cyber Security - Participant",
+        image: "/certificates/ctf/compfest16.jpeg",
+        tag: "Competition",
+    },
+    {
         id: 8,
         title: "Cisco - Ethical Hacker",
         image: "/certificates/cisco/Ethical_Hacker.jpg",
