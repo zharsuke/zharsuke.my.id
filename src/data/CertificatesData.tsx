@@ -156,7 +156,7 @@ const certificatesData = [
         tag: "Workshop",
     },
     {
-        id: 22,
+        id: 27,
         title: "Hack4id Day 2",
         image: "/certificates/workshop/hack4id-day2.jpg",
         tag: "Workshop",
