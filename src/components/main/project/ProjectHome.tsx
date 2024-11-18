@@ -8,13 +8,11 @@ export default function ProjectHome() {
             {projects.map((project) => (
                 <div key={project.id} className="p-2 border-dashed border border-primary rounded-md">
                     <Link href={`/projects/${project.id}`}>
-                        <div className="flex flex-col h-full justify-between rounded-md">
-                            <div>
-                                <h1 className="font-bold text-sm md:text-lg">{project.title}</h1>
-                                <p className="text-sm md:text-lg my-2">{project.subtitle}</p>
-                                <div className="flex flex-row gap-2">
-                                    <p className="font-bold hover:text-primary transition ease-in-out delay-150 hover:-translate-y-0.5 duration-300">Read More...</p>
-                                </div>
+                        <div className="h-full rounded-md">
+                            <h1 className="font-bold text-sm md:text-lg">{project.title}</h1>
+                            <p className="text-sm md:text-lg my-2">{project.subtitle}</p>
+                            <div className="flex flex-row gap-2">
+                                <p className="font-bold hover:text-primary transition ease-in-out delay-150 hover:-translate-y-0.5 duration-300">Read More...</p>
                             </div>
                             <div className="flex flex-wrap gap-2 mt-4">
                                 {project.tech && project.tech.map((tech) => (
