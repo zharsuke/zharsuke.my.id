@@ -2,7 +2,7 @@ import certificatesData from "@/data/CertificatesData"
 import Image from "next/image"
 
 export default function CertificatesHome() {
-    const certificates = certificatesData.slice(0, 3);
+    const certificates = certificatesData.slice(0, 4);
     return (
         <div className="md:carousel my-4 carousel w-full">
             {certificates.map((certificate) => (
