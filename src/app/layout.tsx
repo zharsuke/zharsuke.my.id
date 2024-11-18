@@ -7,6 +7,8 @@ const font = Rokkitt({
   subsets: ['latin'],
 })
 
+export const runtime = "edge";
+
 export const metadata: Metadata = {
   title: "Home | Zharsuke",
   description: "My personal website",
