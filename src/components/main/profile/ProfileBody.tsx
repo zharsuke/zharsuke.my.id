@@ -24,7 +24,7 @@ export default function ProfileBody({ name, description, email, github, linkedin
                 <Link href={linkedin} className={`border-solid border border-primary px-1 py-1 rounded-md ${hover}`}><Icon icon="line-md:linkedin" /></Link>
                 <Link href={twitter} className={`border-solid border border-primary px-1 py-1 rounded-md ${hover}`}><Icon icon="line-md:twitter" /></Link>
                 <Link href={medium} className={`border-solid border border-primary px-1 py-1 rounded-md ${hover}`}><Icon icon="ri:medium-line" /></Link>
-                <Link href={resume} className={`border-solid border border-primary px-1 py-1 rounded-md ${hover}`}><Icon icon="line-md:file-document" /></Link>
+                <a href={resume} className={`border-solid border border-primary px-1 py-1 rounded-md ${hover}`}><Icon icon="line-md:file-document" /></a>
             </div>
         </div>
     )
