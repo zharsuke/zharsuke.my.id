@@ -8,7 +8,7 @@ export default function ExperienceHome() {
                 <div key={exp.id} className="my-4 p-2 border-dashed border border-primary rounded-md">
                     <div className="flex flex-row justify-between">
                         <h1 className="font-bold text-sm md:text-lg">{exp.title}</h1>
-                        <p className="text-xs p-1 bg-primary rounded">{exp.tag}</p>
+                        <p className="text-xs p-1 badge badge-primary">{exp.tag}</p>
                     </div>
                     <p className="text-sm md:text-lg my-2">{exp.position}</p>
                     <p className="text-sm md:text-lg my-2">{exp.description}</p>

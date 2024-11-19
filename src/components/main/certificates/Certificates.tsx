@@ -11,7 +11,7 @@ export default function Certificates() {
                     <div className="flex-col">
                         <h1 className="font-bold text-sm md:text-lg my-2">{certificate.title}</h1>
                         <div className="flex flex-row gap-2">
-                            <p className="text-xs md:text-xs p-1 bg-primary rounded">{certificate.tag}</p>
+                            <p className="text-xs md:text-xs p-1 badge badge-primary">{certificate.tag}</p>
                         </div>
                     </div>
                 </div>
