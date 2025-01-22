@@ -125,7 +125,7 @@ const experienceData = [
         title: "Cybersecurity Extracurricular, SMKN 4 Malang",
         position: "Mentor",
         start: "September 2024",
-        end: "Present",
+        end: "December 2024",
         tag: [
             tag[1].name
         ],
