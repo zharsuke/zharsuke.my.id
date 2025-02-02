@@ -119,7 +119,7 @@ const projectData = [
     },
     {
         "id": 13,
-        "image": "/image-project/place-holder-remove.png",
+        "image": "/image-project/sport-inventory-intern.png",
         "title": "Sports Inventory",
         "subtitle": "A web application for managing sports inventory warehouses. Mini project during my internship bootcamp.",
         "description": "Sports Inventory Warehouse Angular is a web application developed to manage sports inventory warehouses. This application was created as part of a mini project during my internship bootcamp. It is built using Angular for the frontend and connects to the Sports Inventory Warehouse API, which is developed using Express.js and MySQL as the database. The application provides features such as adding, editing, deleting, and displaying inventory items, as well as managing loan and return transactions.",
