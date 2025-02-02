@@ -142,6 +142,17 @@ const experienceData = [
         ],
         description: "This competition is held by State University of Semarang. Work as team to solve the challenges, and make writeups. Also learn how to solve the challenges, work as team as well, how to manage the time, and experience."
     },
+    {
+        id: 13,
+        title: "PT. Amerta Indah Otsuka",
+        position: "Fullstack Web Developer",
+        start: "January 2025",
+        end: "Present",
+        tag: [
+            tag[0].name
+        ],
+        description: "Responsible for developing systems to meet the needs of department users using AngularJS and Express.js. Contribute to the creation of features and optimization of web-based systems to improve the efficiency of company operations."
+    },
 ]
 
 export default experienceData;
