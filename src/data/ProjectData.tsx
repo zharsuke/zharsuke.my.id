@@ -94,6 +94,17 @@ const projectData = [
         source: "https://github.com/zharsuke/sports-inventory-warehouse"
     },
     {
+        id: 9,
+        image: "/image-project/place-holder-remove.png",
+        title: "Personal Notes App",
+        subtitle: "An web application for managing personal notes. This is my Dicoding final submission 'Learn to Build Web Apps with React' course. Work in progress.",
+        description: "Personal Notes App is a web application that is used to manage personal notes. This application is made to facilitate the process of managing personal notes. This application is made using the React js and Local Storage to store data. This application has features such as adding, editing, deleting, and displaying personal notes.",
+        tech: [
+            tech[9].name,
+        ],
+        source: "https://github.com/zharsuke/personal-notes-app"
+    },
+    {
         id: 8,
         image: "/image-project/book-shelf-app.png",
         title: "Bookshelf App",
@@ -107,15 +118,33 @@ const projectData = [
         source: "https://github.com/zharsuke/bookshelf-apps"
     },
     {
-        id: 9,
-        image: "/image-project/place-holder-remove.png",
-        title: "Personal Notes App",
-        subtitle: "An web application for managing personal notes. This is my Dicoding final submission 'Learn to Build Web Apps with React' course. Work in progress.",
-        description: "Personal Notes App is a web application that is used to manage personal notes. This application is made to facilitate the process of managing personal notes. This application is made using the React js and Local Storage to store data. This application has features such as adding, editing, deleting, and displaying personal notes.",
-        tech: [
-            tech[9].name,
+        "id": 13,
+        "image": "/image-project/place-holder-remove.png",
+        "title": "Sports Inventory",
+        "subtitle": "A web application for managing sports inventory warehouses. Mini project during my internship bootcamp.",
+        "description": "Sports Inventory Warehouse Angular is a web application developed to manage sports inventory warehouses. This application was created as part of a mini project during my internship bootcamp. It is built using Angular for the frontend and connects to the Sports Inventory Warehouse API, which is developed using Express.js and MySQL as the database. The application provides features such as adding, editing, deleting, and displaying inventory items, as well as managing loan and return transactions.",
+        "tech": [
+            tech[10].name,
+            tech[31].name,
+            tech[11].name,
+            tech[15].name,
+            tech[16].name,
         ],
-        source: "https://github.com/zharsuke/personal-notes-app"
+        "source": "https://github.com/zharsuke/sports-inventory"
+    },
+    {
+        id: 11,
+        image: "/image-project/pos.png",
+        title: "Point of Sales",
+        subtitle: "An web application for managing sales. This is my Web Programming Advance course 4th semester",
+        description: "Point of Sales is a web application that is used to manage sales. This application is made to facilitate the process of managing sales. This application is made using the Laravel and PostgreSQL database. This application has features such as adding, editing, deleting products. Also add sales transactions.",
+        tech: [
+            tech[7].name,
+            tech[14].name,
+            tech[22].name,
+            tech[11].name,
+        ],
+        source: "https://github.com/zharsuke/PWL_POS"
     },
     {
         id: 10,
@@ -132,18 +161,34 @@ const projectData = [
         source: "https://github.com/zharsuke/rwis-3"
     },
     {
-        id: 11,
-        image: "/image-project/pos.png",
-        title: "Point of Sales",
-        subtitle: "An web application for managing sales. This is my Web Programming Advance course 4th semester",
-        description: "Point of Sales is a web application that is used to manage sales. This application is made to facilitate the process of managing sales. This application is made using the Laravel and PostgreSQL database. This application has features such as adding, editing, deleting products. Also add sales transactions.",
+        id: 15,
+        image: "/image-project/place-holder-remove.png",
+        title: "CheatShield",
+        subtitle: "Collaborated with a Team to Develop a Mobile Quiz App for Final Project Using Flutter, Laravel, FastAPI, PostgreSQL, and Machine Learning for Face Detection to Ensure Users Don't Cheat During the Quiz",
+        description: "Cheatshield is an innovative application designed to improve academic integrity  in online learning environments. The project focuses on developing a robust face detection system to monitor and verify student identity during online exams. This solution addresses the growing need for reliable anti-cheating measures in virtual education platforms.",
         tech: [
+            tech[27].name,
             tech[7].name,
-            tech[14].name,
-            tech[22].name,
-            tech[11].name,
+            tech[28].name,
+            tech[29].name,
+            tech[30].name,
         ],
-        source: "https://github.com/zharsuke/PWL_POS"
+        source: "https://github.com/integer-class/cheatshield/tree/main"
+    },
+    {
+        id: 12,
+        image: "/image-project/crealytic.png",
+        title: "Crealytic",
+        subtitle: "Crealytic is an innovative tool designed to empower content creators with cutting-edge AI technology.",
+        description: "Crealytic is an innovative tool designed to empower content creators with cutting-edge AI technology, inspired by the web development workshop at DevFest Surabaya 2024. This platform is built to streamline and enhance the creative process, making it easier for creators to focus on what they do best—crafting compelling content.",
+        tech: [
+            tech[8].name,
+            tech[24].name,
+            tech[15].name,
+            tech[25].name,
+            tech[26].name,
+        ],
+        source: "https://github.com/zharsuke/crealytic"
     },
 ]
 

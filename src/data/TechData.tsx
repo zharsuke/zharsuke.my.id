@@ -94,7 +94,39 @@ const techData = [
     {
         id: 24,
         name: "LiveWire datatable"
-    }
+    },
+    {
+        id: 25,
+        name: "Gemini AI"
+    },
+    {
+        id: 26,
+        name: "Shadcn"
+    },
+    {
+        id: 27,
+        name: "Neo Brutalism"
+    },
+    {
+        id: 28,
+        name: "Flutter"
+    },
+    {
+        id: 29,
+        name: "Filament"
+    },
+    {
+        id: 30,
+        name: "FastAPI"
+    },
+    {
+        id: 31,
+        name: "Machine Learning"
+    },
+    {
+        id: 32,
+        name: "Angular"
+    },
 ]
 
 export default techData;
